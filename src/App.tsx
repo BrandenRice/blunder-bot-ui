@@ -8,9 +8,11 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <div>
-        <Chessboard id="main-board" />
+      <h1>Blunder Bot</h1>
+      <div className='chessboard'>
+        <Chessboard 
+          id="main-board" 
+        />
       </div>
     </>
   )
